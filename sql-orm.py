@@ -60,6 +60,8 @@ base.metadata.create_all(db)
 #     print(artist.Name)
 
 # Query 3 - select only "Queen" from the "Artist" table
+# we can use the .first() method to only give us the first item from...
+# the quary just in case more than one result comes back
 # artist = session.query(Artist).filter_by(Name="Queen").first()
 # print(artist.ArtistId, artist.Name, sep=" | ")
 
